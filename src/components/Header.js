@@ -1,7 +1,9 @@
 import React from "react";
 import Search from "./Search";
+import Sort from "./Sort";
+import NewListing from "./NewListing";
 
-function Header() {
+function Header({ filter, setFilter, sort, setSort, newListing, setNewListing, onNewListingSubmit }) {
   return (
     <header>
       <h1>
@@ -10,7 +12,9 @@ function Header() {
         </span>
         gregslist
       </h1>
-      <Search />
+      <Search filter={filter} setFilter={setFilter} />
+      <Sort sort={sort} setSort={setSort} />
+      <NewListing newListing={newListing} setNewListing={setNewListing} onNewListingSubmit={onNewListingSubmit}/>
     </header>
   );
 }

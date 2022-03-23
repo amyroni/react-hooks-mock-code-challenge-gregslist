@@ -37,10 +37,10 @@
       "location": "Bay Ridge"
     },
     {
-      "id": 7,
-      "description": "Treadmill Parts For Free",
-      "image": "./images/treadmill.jpg",
-      "location": "East Flatbush"
+      "location": "manhattan",
+      "description": "ramen",
+      "image": "https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg",
+      "id": 7
     }
   ]
 }
